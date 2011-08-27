@@ -1,0 +1,37 @@
+% Here, we define a custom title page to be inserted into the master
+% document with \input{./BA2-i315648-titlepage.tex} Although the
+% standard \maketitle instruction would also do the job and generates
+% a nice title page too, doing it this way is recommended if you want
+% your titlepage to look exactly like the European Studies style-sheet
+% demands. Requires \usepackage{multicol} and
+% \setlength{\columnsep}{6cm} in the preamble of the master document.
+
+\begin{titlepage}
+\begin{center}
+  {
+    \vspace*{5mm}    % add 0.5cm to make it about 5cm
+    \Large                    % larger font for the title
+    \bfseries                 % bold typeface
+    
+    Creating a perfect document with \LaTeX\\ and apacite.sty
+  }
+\end{center}
+\vfill
+
+\begin{multicols}{2}
+  \normalsize
+  \noindent
+    Supervisor:\\*
+    Kim E. Tutorsen\\*
+    \\*
+    \\*
+    
+    \noindent
+    Rory Swotter\\*
+    ID 0123456\\*
+    Pigeonhole 737\\*
+    Date: 20-04-2012\\*
+    Version: final draft
+    
+  \end{multicols}
+\end{titlepage}
