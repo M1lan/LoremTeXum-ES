@@ -21,32 +21,40 @@
 % You should have received a copy of the GNU General Public License
 % and the GNU Free Document License along with this example.  If not,
 % see <http://www.gnu.org/licenses/>.
+% 
+% This project is maintained at https://github.com/M1lan/LoremTeXum-ES 
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % This is an example of how to generate .pdf documents based on the
 % style sheet of European Studies using the LateX typesetting system.
-% I thought it might be something to share, so have fun with
-% it. Lines that begin with % are comments.
+% It is supposed to contribute to the Freedom of those who want to
+% create really nice papers.
+% I thought it might be something to share, so have fun with it.
+% Lines that begin with a % are comments.
   
-% the preamble, where everything that will be required further on is loaded
+% The preamble, where everything that will be required further on is loaded
+
+% we want an 4a paper article fontsize 12
 \documentclass[12pt,a4paper]{article}
 
 % needed for the TOC
 \usepackage{longtable}     
 
+% set encoding
 % I'd prefer utf-8 but it is important to use latin1 because of
-% SafeAssign. You may have to adjust the file encoding of your editor
-% to iso-latin1 or iso-8859-1
+% SafeAssign. In rare cases you may have to adjust the file encoding of your editor
+% to iso-latin1 or iso-8859-1 (if you don't know, you probably don't have to.)
 \usepackage[T1]{fontenc}
 \usepackage[latin1]{inputenc}
 
 % for references with hyperlinks
 \usepackage{url}
 
-% for setting line spacing
+% for line spacing
 \usepackage{setspace}
 
+% incredibly useful:
 % APA-style citations and list of references thanks to Erik Meijer for
 % this outstanding package!
 \usepackage{apacite}
@@ -63,13 +71,13 @@
 % how much additional line spacing between two footnotes?
 \setlength{\footnotesep}{0cm}
 
-% optional, as we don't use \maketitle
+% those usually matter but here we don't care, since we don't use \maketitle
 \author{}
 \title{}
 \date{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% the actual document begins here
+% End of the preamble, the actual document begins below:
 \begin{document}
 
 % line spacing 1.5 throughout (except quotations and footnotes!)
