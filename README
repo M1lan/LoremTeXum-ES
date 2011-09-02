@@ -1,6 +1,10 @@
-have fun with this template!
+Open the .tex file in your favourite (plain-) text editor and have fun with this template!
 
-more TeX related info on http://www.tug.org
+To generate the .pdf, you will need to have LaTeX installed.
+Get it from http://www.latex-project.org/ftp.html
+
+For a myriad of TeX related information and further downloads 
+refer to http://www.tug.org and http://www.ctan.org/
 
 
 -- Milan
