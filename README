@@ -1,7 +1,8 @@
 Open the .tex file in your favourite (plain-) text editor and have fun with this template!
 
 To generate the .pdf, you will need to have LaTeX installed.
-Get it from http://www.latex-project.org/ftp.html
+Get it from http://www.latex-project.org/ftp.html and also get apacite which is available either 
+in the LaTeX bundle or from http://ctan.org/tex-archive/biblio/bibtex/contrib/apacite/
 
 For a myriad of TeX related information and further downloads 
 refer to http://www.tug.org and http://www.ctan.org/
